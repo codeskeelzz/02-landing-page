@@ -1,0 +1,294 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="2720" viewBox="0 0 1240 2720" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1240" height="2720" fill="#e9e9ee"/>
+  <text x="20" y="22" font-size="14" fill="#444" font-weight="700">DESKTOP (900px and wider): 3 and 4-column grids, nav links inline</text>
+  <text x="880" y="22" font-size="14" fill="#444" font-weight="700">MOBILE (under 900px): 1 column, hamburger</text>
+
+  <g transform="translate(0,34)">
+    <!-- ================= DESKTOP ================= -->
+    <rect x="20" y="20" width="800" height="2580" fill="#faf6f0" stroke="#bbb"/>
+
+    <!-- 1 nav -->
+    <text x="60" y="60" font-size="22" font-weight="800" fill="#2b1d14">Ember</text>
+    <g font-size="14" fill="#2b1d14">
+      <text x="400" y="58">Roasts</text><text x="470" y="58">Plans</text><text x="530" y="58">How it works</text><text x="630" y="58">FAQ</text>
+    </g>
+    <rect x="690" y="38" width="110" height="34" rx="17" fill="#d9531e"/>
+    <text x="745" y="60" font-size="14" fill="#fff" text-anchor="middle">Subscribe</text>
+    <line x1="20" y1="84" x2="820" y2="84" stroke="#e8dccb"/>
+
+    <!-- 2 hero -->
+    <text x="60" y="170" font-size="38" font-weight="800" fill="#2b1d14">Fresh-roasted coffee,</text>
+    <text x="60" y="214" font-size="38" font-weight="800" fill="#2b1d14">at your door.</text>
+    <text x="60" y="254" font-size="15" fill="#6b5a4c">Small-batch beans roasted the week they ship.</text>
+    <text x="60" y="276" font-size="15" fill="#6b5a4c">Skip, pause or cancel anytime.</text>
+    <rect x="60" y="306" width="150" height="46" rx="23" fill="#d9531e"/>
+    <text x="135" y="335" font-size="15" fill="#fff" text-anchor="middle" font-weight="600">Start your box</text>
+    <text x="232" y="335" font-size="15" fill="#d9531e">See roasts →</text>
+    <text x="60" y="398" font-size="12" fill="#6b5a4c">★★★★★  4.9 from 2,300+ happy drinkers</text>
+    <rect x="470" y="116" width="310" height="300" rx="16" fill="#c9b79c"/>
+    <text x="625" y="270" font-size="13" fill="#6b5a4c" text-anchor="middle">hero image (coffee photo)</text>
+
+    <!-- 3 featured in -->
+    <rect x="20" y="440" width="800" height="60" fill="#f3ebde"/>
+    <text x="60" y="475" font-size="11" fill="#6b5a4c" letter-spacing="2">AS FEATURED IN</text>
+    <g fill="#e0d3bf">
+      <rect x="250" y="458" width="100" height="24" rx="12"/><rect x="365" y="458" width="100" height="24" rx="12"/>
+      <rect x="480" y="458" width="100" height="24" rx="12"/><rect x="595" y="458" width="100" height="24" rx="12"/>
+    </g>
+    <g font-size="11" fill="#6b5a4c" text-anchor="middle" font-weight="700">
+      <text x="300" y="474">BREW MAG</text><text x="415" y="474">The Roast</text><text x="530" y="474">MORNING+</text><text x="645" y="474">Bean Weekly</text>
+    </g>
+
+    <!-- 4 features -->
+    <text x="420" y="550" font-size="26" font-weight="800" fill="#2b1d14" text-anchor="middle">Why Ember</text>
+    <text x="420" y="574" font-size="14" fill="#6b5a4c" text-anchor="middle">Everything you need for a better morning</text>
+    <g fill="#fff" stroke="#e8dccb">
+      <rect x="60" y="596" width="224" height="120" rx="12"/><rect x="308" y="596" width="224" height="120" rx="12"/><rect x="556" y="596" width="224" height="120" rx="12"/>
+      <rect x="60" y="736" width="224" height="120" rx="12"/><rect x="308" y="736" width="224" height="120" rx="12"/><rect x="556" y="736" width="224" height="120" rx="12"/>
+    </g>
+    <g fill="#e8dccb">
+      <circle cx="92" cy="628" r="16"/><circle cx="340" cy="628" r="16"/><circle cx="588" cy="628" r="16"/>
+      <circle cx="92" cy="768" r="16"/><circle cx="340" cy="768" r="16"/><circle cx="588" cy="768" r="16"/>
+    </g>
+    <g font-size="15" font-weight="700" fill="#2b1d14">
+      <text x="76" y="670">Roasted to order</text><text x="324" y="670">Free shipping</text><text x="572" y="670">Skip anytime</text>
+      <text x="76" y="810">Single origin</text><text x="324" y="810">Compostable bags</text><text x="572" y="810">Grind your way</text>
+    </g>
+    <g font-size="12" fill="#6b5a4c">
+      <text x="76" y="692">One line of supporting text.</text><text x="324" y="692">One line of supporting text.</text><text x="572" y="692">One line of supporting text.</text>
+      <text x="76" y="832">One line of supporting text.</text><text x="324" y="832">One line of supporting text.</text><text x="572" y="832">One line of supporting text.</text>
+    </g>
+
+    <!-- 5 how it works -->
+    <rect x="20" y="860" width="800" height="240" fill="#fff"/>
+    <text x="420" y="912" font-size="26" font-weight="800" fill="#2b1d14" text-anchor="middle">How it works</text>
+    <text x="420" y="936" font-size="14" fill="#6b5a4c" text-anchor="middle">Three steps to better coffee</text>
+    <g stroke="#e0d3bf" stroke-width="2" stroke-dasharray="6 6"><line x1="200" y1="990" x2="392" y2="990"/><line x1="448" y1="990" x2="640" y2="990"/></g>
+    <g fill="#d9531e"><circle cx="172" cy="990" r="24"/><circle cx="420" cy="990" r="24"/><circle cx="668" cy="990" r="24"/></g>
+    <g font-size="20" font-weight="800" fill="#fff" text-anchor="middle"><text x="172" y="997">1</text><text x="420" y="997">2</text><text x="668" y="997">3</text></g>
+    <g font-size="15" font-weight="700" fill="#2b1d14" text-anchor="middle">
+      <text x="172" y="1042">Pick your roast</text><text x="420" y="1042">We roast and ship</text><text x="668" y="1042">Brew and enjoy</text>
+    </g>
+    <g font-size="12" fill="#6b5a4c" text-anchor="middle">
+      <text x="172" y="1062">Choose a roast and how</text><text x="172" y="1078">often you want it.</text>
+      <text x="420" y="1062">Roasted the week it leaves</text><text x="420" y="1078">our shop. Free delivery.</text>
+      <text x="668" y="1062">Skip, pause or swap beans</text><text x="668" y="1078">whenever you like.</text>
+    </g>
+
+    <!-- 6 roasts -->
+    <text x="420" y="1152" font-size="26" font-weight="800" fill="#2b1d14" text-anchor="middle">Our roasts</text>
+    <text x="420" y="1176" font-size="14" fill="#6b5a4c" text-anchor="middle">Four favourites, roasted fresh</text>
+    <g fill="#fff" stroke="#e8dccb">
+      <rect x="60" y="1204" width="168" height="230" rx="12"/><rect x="244" y="1204" width="168" height="230" rx="12"/>
+      <rect x="428" y="1204" width="168" height="230" rx="12"/><rect x="612" y="1204" width="168" height="230" rx="12"/>
+    </g>
+    <g fill="#c9b79c">
+      <rect x="68" y="1212" width="152" height="104" rx="8"/><rect x="252" y="1212" width="152" height="104" rx="8"/>
+      <rect x="436" y="1212" width="152" height="104" rx="8"/><rect x="620" y="1212" width="152" height="104" rx="8"/>
+    </g>
+    <g font-size="11" fill="#6b5a4c" text-anchor="middle">
+      <text x="144" y="1268">product photo</text><text x="328" y="1268">product photo</text><text x="512" y="1268">product photo</text><text x="696" y="1268">product photo</text>
+    </g>
+    <g font-size="14" font-weight="700" fill="#2b1d14">
+      <text x="76" y="1346">Sunrise Blend</text><text x="260" y="1346">Midnight Dark</text><text x="444" y="1346">Ethiopia Light</text><text x="628" y="1346">Swiss Decaf</text>
+    </g>
+    <g font-size="12" fill="#6b5a4c">
+      <text x="76" y="1364">Cocoa · Orange</text><text x="260" y="1364">Smoke · Molasses</text><text x="444" y="1364">Jasmine · Berry</text><text x="628" y="1364">Caramel · Nut</text>
+    </g>
+    <g font-size="15" font-weight="700" fill="#2b1d14">
+      <text x="76" y="1418">$14</text><text x="260" y="1418">$15</text><text x="444" y="1418">$17</text><text x="628" y="1418">$16</text>
+    </g>
+    <g fill="#d9531e">
+      <rect x="164" y="1398" width="56" height="26" rx="13"/><rect x="348" y="1398" width="56" height="26" rx="13"/>
+      <rect x="532" y="1398" width="56" height="26" rx="13"/><rect x="716" y="1398" width="56" height="26" rx="13"/>
+    </g>
+    <g font-size="12" fill="#fff" text-anchor="middle" font-weight="600">
+      <text x="192" y="1415">Add</text><text x="376" y="1415">Add</text><text x="560" y="1415">Add</text><text x="744" y="1415">Add</text>
+    </g>
+
+    <!-- 7 plans -->
+    <rect x="20" y="1460" width="800" height="360" fill="#f3ebde"/>
+    <text x="420" y="1512" font-size="26" font-weight="800" fill="#2b1d14" text-anchor="middle">Pick your plan</text>
+    <text x="420" y="1536" font-size="14" fill="#6b5a4c" text-anchor="middle">Change or cancel anytime</text>
+    <rect x="60" y="1564" width="224" height="236" rx="12" fill="#fff" stroke="#e8dccb"/>
+    <rect x="308" y="1564" width="224" height="236" rx="12" fill="#2b1d14"/>
+    <rect x="556" y="1564" width="224" height="236" rx="12" fill="#fff" stroke="#e8dccb"/>
+    <rect x="370" y="1552" width="100" height="22" rx="11" fill="#d9531e"/>
+    <text x="420" y="1567" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">MOST POPULAR</text>
+    <g font-size="14" font-weight="700"><text x="80" y="1600" fill="#2b1d14">Starter</text><text x="328" y="1600" fill="#faf6f0">Daily</text><text x="576" y="1600" fill="#2b1d14">Family</text></g>
+    <g font-size="30" font-weight="800"><text x="80" y="1640" fill="#2b1d14">$14</text><text x="328" y="1640" fill="#faf6f0">$26</text><text x="576" y="1640" fill="#2b1d14">$48</text></g>
+    <g font-size="12"><text x="126" y="1640" fill="#6b5a4c">/ delivery</text><text x="374" y="1640" fill="#c9b79c">/ delivery</text><text x="622" y="1640" fill="#6b5a4c">/ delivery</text></g>
+    <g font-size="12" fill="#6b5a4c">
+      <text x="80" y="1670">✓ 1 bag every 2 weeks</text><text x="80" y="1690">✓ Free shipping</text><text x="80" y="1710">✓ Skip anytime</text>
+      <text x="576" y="1670">✓ 4 bags every 2 weeks</text><text x="576" y="1690">✓ Free shipping</text><text x="576" y="1710">✓ Skip anytime</text>
+    </g>
+    <g font-size="12" fill="#e8dccb"><text x="328" y="1670">✓ 2 bags every 2 weeks</text><text x="328" y="1690">✓ Free shipping</text><text x="328" y="1710">✓ Skip anytime</text></g>
+    <rect x="80" y="1746" width="184" height="36" rx="18" fill="none" stroke="#d9531e"/>
+    <rect x="328" y="1746" width="184" height="36" rx="18" fill="#d9531e"/>
+    <rect x="576" y="1746" width="184" height="36" rx="18" fill="none" stroke="#d9531e"/>
+    <g font-size="13" font-weight="600" text-anchor="middle"><text x="172" y="1769" fill="#d9531e">Choose Starter</text><text x="420" y="1769" fill="#fff">Choose Daily</text><text x="668" y="1769" fill="#d9531e">Choose Family</text></g>
+
+    <!-- 8 testimonials -->
+    <rect x="20" y="1820" width="800" height="200" fill="#2b1d14"/>
+    <text x="420" y="1862" font-size="24" font-weight="800" fill="#faf6f0" text-anchor="middle">Loved by early risers</text>
+    <g fill="#3a291e"><rect x="60" y="1886" width="224" height="110" rx="12"/><rect x="308" y="1886" width="224" height="110" rx="12"/><rect x="556" y="1886" width="224" height="110" rx="12"/></g>
+    <g font-size="12" fill="#e8dccb">
+      <text x="76" y="1914">“Short quote about how good</text><text x="76" y="1930">the coffee tastes.”</text>
+      <text x="324" y="1914">“Short quote about how good</text><text x="324" y="1930">the coffee tastes.”</text>
+      <text x="572" y="1914">“Short quote about how good</text><text x="572" y="1930">the coffee tastes.”</text>
+    </g>
+    <g fill="#c9b79c"><circle cx="90" cy="1964" r="12"/><circle cx="338" cy="1964" r="12"/><circle cx="586" cy="1964" r="12"/></g>
+    <g font-size="12" fill="#faf6f0" font-weight="600"><text x="110" y="1968">Name Surname</text><text x="358" y="1968">Name Surname</text><text x="606" y="1968">Name Surname</text></g>
+
+    <!-- 9 faq -->
+    <text x="420" y="2072" font-size="26" font-weight="800" fill="#2b1d14" text-anchor="middle">Questions, answered</text>
+    <g fill="#fff" stroke="#e8dccb">
+      <rect x="60" y="2100" width="720" height="78" rx="10"/><rect x="60" y="2188" width="720" height="44" rx="10"/>
+      <rect x="60" y="2240" width="720" height="44" rx="10"/><rect x="60" y="2292" width="720" height="44" rx="10"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#2b1d14">
+      <text x="80" y="2126">Can I skip a delivery?</text><text x="80" y="2216">How fresh is the coffee?</text>
+      <text x="80" y="2268">Do you ship internationally?</text><text x="80" y="2320">Can I change my roast?</text>
+    </g>
+    <g font-size="12" fill="#6b5a4c"><text x="80" y="2148">Yes. Skip, pause or cancel from your account</text><text x="80" y="2164">any time before the Monday cutoff.</text></g>
+    <g font-size="20" fill="#d9531e" text-anchor="middle"><text x="758" y="2128">−</text><text x="758" y="2217">+</text><text x="758" y="2269">+</text><text x="758" y="2321">+</text></g>
+
+    <!-- 10 signup band -->
+    <rect x="20" y="2350" width="800" height="140" fill="#d9531e"/>
+    <text x="420" y="2398" font-size="26" font-weight="800" fill="#fff" text-anchor="middle">Your first bag ships free.</text>
+    <text x="420" y="2422" font-size="13" fill="#fff" text-anchor="middle" opacity="0.9">Join the list for brewing tips and 10% off your first box.</text>
+    <rect x="250" y="2442" width="250" height="38" rx="19" fill="#fff"/>
+    <text x="272" y="2466" font-size="13" fill="#9a8c7e">you@email.com</text>
+    <rect x="510" y="2442" width="130" height="38" rx="19" fill="#2b1d14"/>
+    <text x="575" y="2466" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">Get started</text>
+
+    <!-- 11 footer -->
+    <rect x="20" y="2490" width="800" height="110" fill="#1c120c"/>
+    <text x="60" y="2536" font-size="18" font-weight="800" fill="#faf6f0">Ember</text>
+    <text x="60" y="2584" font-size="11" fill="#c9b79c">© 2026 Ember Coffee Roasters</text>
+    <g font-size="12" font-weight="700" fill="#faf6f0"><text x="470" y="2528">Shop</text><text x="580" y="2528">Company</text><text x="690" y="2528">Support</text></g>
+    <g font-size="12" fill="#c9b79c">
+      <text x="470" y="2548">Roasts</text><text x="470" y="2566">Plans</text>
+      <text x="580" y="2548">About</text><text x="580" y="2566">Careers</text>
+      <text x="690" y="2548">FAQ</text><text x="690" y="2566">Contact</text>
+    </g>
+
+    <!-- ================= MOBILE ================= -->
+    <rect x="880" y="20" width="320" height="2580" fill="#faf6f0" stroke="#bbb"/>
+
+    <!-- nav -->
+    <text x="896" y="56" font-size="20" font-weight="800" fill="#2b1d14">Ember</text>
+    <g stroke="#2b1d14" stroke-width="2.5" stroke-linecap="round"><line x1="1160" y1="38" x2="1184" y2="38"/><line x1="1160" y1="46" x2="1184" y2="46"/><line x1="1160" y1="54" x2="1184" y2="54"/></g>
+    <line x1="880" y1="76" x2="1200" y2="76" stroke="#e8dccb"/>
+
+    <!-- hero -->
+    <text x="896" y="124" font-size="28" font-weight="800" fill="#2b1d14">Fresh-roasted</text>
+    <text x="896" y="156" font-size="28" font-weight="800" fill="#2b1d14">coffee, at your</text>
+    <text x="896" y="188" font-size="28" font-weight="800" fill="#2b1d14">door.</text>
+    <text x="896" y="218" font-size="13" fill="#6b5a4c">Small-batch beans roasted the week</text>
+    <text x="896" y="236" font-size="13" fill="#6b5a4c">they ship.</text>
+    <rect x="896" y="256" width="288" height="46" rx="23" fill="#d9531e"/>
+    <text x="1040" y="285" font-size="15" fill="#fff" text-anchor="middle" font-weight="600">Start your box</text>
+    <text x="896" y="330" font-size="12" fill="#6b5a4c">★★★★★  4.9 from 2,300+ happy drinkers</text>
+    <rect x="896" y="346" width="288" height="160" rx="16" fill="#c9b79c"/>
+    <text x="1040" y="430" font-size="12" fill="#6b5a4c" text-anchor="middle">hero image</text>
+
+    <!-- featured in -->
+    <rect x="880" y="526" width="320" height="64" fill="#f3ebde"/>
+    <text x="1040" y="548" font-size="10" fill="#6b5a4c" letter-spacing="2" text-anchor="middle">AS FEATURED IN</text>
+    <g fill="#e0d3bf"><rect x="896" y="558" width="66" height="20" rx="10"/><rect x="970" y="558" width="66" height="20" rx="10"/><rect x="1044" y="558" width="66" height="20" rx="10"/><rect x="1118" y="558" width="66" height="20" rx="10"/></g>
+
+    <!-- features -->
+    <text x="1040" y="636" font-size="22" font-weight="800" fill="#2b1d14" text-anchor="middle">Why Ember</text>
+    <rect x="896" y="656" width="288" height="84" rx="12" fill="#fff" stroke="#e8dccb"/>
+    <rect x="896" y="752" width="288" height="84" rx="12" fill="#fff" stroke="#e8dccb"/>
+    <circle cx="928" cy="686" r="14" fill="#e8dccb"/><circle cx="928" cy="782" r="14" fill="#e8dccb"/>
+    <text x="912" y="722" font-size="14" font-weight="700" fill="#2b1d14">Roasted to order</text>
+    <text x="912" y="818" font-size="14" font-weight="700" fill="#2b1d14">Free shipping</text>
+    <text x="1040" y="860" font-size="12" fill="#6b5a4c" text-anchor="middle">… 4 more cards, stacked</text>
+
+    <!-- how it works -->
+    <rect x="880" y="880" width="320" height="260" fill="#fff"/>
+    <text x="1040" y="920" font-size="22" font-weight="800" fill="#2b1d14" text-anchor="middle">How it works</text>
+    <line x1="912" y1="976" x2="912" y2="1086" stroke="#e0d3bf" stroke-width="2" stroke-dasharray="5 5"/>
+    <g fill="#d9531e"><circle cx="912" cy="960" r="16"/><circle cx="912" cy="1030" r="16"/><circle cx="912" cy="1100" r="16"/></g>
+    <g font-size="14" font-weight="800" fill="#fff" text-anchor="middle"><text x="912" y="965">1</text><text x="912" y="1035">2</text><text x="912" y="1105">3</text></g>
+    <g font-size="14" font-weight="700" fill="#2b1d14"><text x="940" y="958">Pick your roast</text><text x="940" y="1028">We roast and ship</text><text x="940" y="1098">Brew and enjoy</text></g>
+    <g font-size="12" fill="#6b5a4c"><text x="940" y="976">Choose a roast and frequency.</text><text x="940" y="1046">Roasted the week it leaves us.</text><text x="940" y="1116">Skip or swap whenever.</text></g>
+
+    <!-- roasts -->
+    <text x="1040" y="1190" font-size="22" font-weight="800" fill="#2b1d14" text-anchor="middle">Our roasts</text>
+    <rect x="896" y="1212" width="140" height="210" rx="12" fill="#fff" stroke="#e8dccb"/>
+    <rect x="1048" y="1212" width="140" height="210" rx="12" fill="#fff" stroke="#e8dccb"/>
+    <rect x="904" y="1220" width="124" height="94" rx="8" fill="#c9b79c"/>
+    <rect x="1056" y="1220" width="124" height="94" rx="8" fill="#c9b79c"/>
+    <text x="912" y="1340" font-size="13" font-weight="700" fill="#2b1d14">Sunrise Blend</text>
+    <text x="1064" y="1340" font-size="13" font-weight="700" fill="#2b1d14">Midnight Dark</text>
+    <text x="912" y="1358" font-size="11" fill="#6b5a4c">Cocoa · Orange</text>
+    <text x="1064" y="1358" font-size="11" fill="#6b5a4c">Smoke · Molasses</text>
+    <text x="912" y="1402" font-size="14" font-weight="700" fill="#2b1d14">$14</text>
+    <rect x="978" y="1386" width="48" height="24" rx="12" fill="#d9531e"/>
+    <text x="1002" y="1402" font-size="11" fill="#fff" text-anchor="middle" font-weight="600">Add</text>
+    <text x="1040" y="1448" font-size="11" fill="#6b5a4c" text-anchor="middle">swipe sideways (or 2-column grid)</text>
+
+    <!-- plans -->
+    <rect x="880" y="1470" width="320" height="410" fill="#f3ebde"/>
+    <text x="1040" y="1510" font-size="22" font-weight="800" fill="#2b1d14" text-anchor="middle">Pick your plan</text>
+    <rect x="896" y="1530" width="288" height="150" rx="12" fill="#fff" stroke="#e8dccb"/>
+    <rect x="896" y="1696" width="288" height="150" rx="12" fill="#2b1d14"/>
+    <text x="912" y="1558" font-size="14" font-weight="700" fill="#2b1d14">Starter</text>
+    <text x="912" y="1594" font-size="26" font-weight="800" fill="#2b1d14">$14</text>
+    <text x="912" y="1618" font-size="12" fill="#6b5a4c">✓ 1 bag every 2 weeks   ✓ Free shipping</text>
+    <rect x="912" y="1634" width="256" height="30" rx="15" fill="none" stroke="#d9531e"/>
+    <text x="1040" y="1654" font-size="12" fill="#d9531e" text-anchor="middle" font-weight="600">Choose Starter</text>
+    <rect x="1086" y="1684" width="98" height="20" rx="10" fill="#d9531e"/>
+    <text x="1135" y="1698" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">MOST POPULAR</text>
+    <text x="912" y="1728" font-size="14" font-weight="700" fill="#faf6f0">Daily</text>
+    <text x="912" y="1764" font-size="26" font-weight="800" fill="#faf6f0">$26</text>
+    <text x="912" y="1788" font-size="12" fill="#e8dccb">✓ 2 bags every 2 weeks   ✓ Free shipping</text>
+    <rect x="912" y="1804" width="256" height="30" rx="15" fill="#d9531e"/>
+    <text x="1040" y="1824" font-size="12" fill="#fff" text-anchor="middle" font-weight="600">Choose Daily</text>
+    <text x="1040" y="1868" font-size="11" fill="#6b5a4c" text-anchor="middle">… Family plan, stacked</text>
+
+    <!-- testimonials -->
+    <rect x="880" y="1880" width="320" height="190" fill="#2b1d14"/>
+    <text x="1040" y="1916" font-size="20" font-weight="800" fill="#faf6f0" text-anchor="middle">Loved by early risers</text>
+    <rect x="896" y="1936" width="288" height="110" rx="12" fill="#3a291e"/>
+    <text x="912" y="1964" font-size="12" fill="#e8dccb">“Short quote about how good</text>
+    <text x="912" y="1980" font-size="12" fill="#e8dccb">the coffee tastes.”</text>
+    <circle cx="924" cy="2016" r="11" fill="#c9b79c"/>
+    <text x="942" y="2020" font-size="12" fill="#faf6f0" font-weight="600">Name Surname</text>
+
+    <!-- faq -->
+    <text x="1040" y="2114" font-size="22" font-weight="800" fill="#2b1d14" text-anchor="middle">Questions, answered</text>
+    <rect x="896" y="2134" width="288" height="86" rx="10" fill="#fff" stroke="#e8dccb"/>
+    <rect x="896" y="2230" width="288" height="40" rx="10" fill="#fff" stroke="#e8dccb"/>
+    <rect x="896" y="2280" width="288" height="40" rx="10" fill="#fff" stroke="#e8dccb"/>
+    <text x="912" y="2160" font-size="13" font-weight="700" fill="#2b1d14">Can I skip a delivery?</text>
+    <text x="912" y="2182" font-size="11" fill="#6b5a4c">Yes. Skip, pause or cancel any time</text>
+    <text x="912" y="2198" font-size="11" fill="#6b5a4c">before the Monday cutoff.</text>
+    <text x="912" y="2255" font-size="13" font-weight="700" fill="#2b1d14">How fresh is the coffee?</text>
+    <text x="912" y="2305" font-size="13" font-weight="700" fill="#2b1d14">Do you ship abroad?</text>
+    <g font-size="18" fill="#d9531e" text-anchor="middle"><text x="1168" y="2160">−</text><text x="1168" y="2256">+</text><text x="1168" y="2306">+</text></g>
+
+    <!-- signup band -->
+    <rect x="880" y="2340" width="320" height="170" fill="#d9531e"/>
+    <text x="1040" y="2380" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">Your first bag ships free.</text>
+    <rect x="896" y="2404" width="288" height="38" rx="19" fill="#fff"/>
+    <text x="916" y="2428" font-size="13" fill="#9a8c7e">you@email.com</text>
+    <rect x="896" y="2454" width="288" height="38" rx="19" fill="#2b1d14"/>
+    <text x="1040" y="2478" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">Get started</text>
+
+    <!-- footer -->
+    <rect x="880" y="2510" width="320" height="90" fill="#1c120c"/>
+    <text x="896" y="2542" font-size="16" font-weight="800" fill="#faf6f0">Ember</text>
+    <g font-size="12" fill="#c9b79c"><text x="896" y="2566">Roasts</text><text x="960" y="2566">Plans</text><text x="1018" y="2566">FAQ</text><text x="1064" y="2566">Contact</text></g>
+    <text x="896" y="2588" font-size="11" fill="#c9b79c">© 2026 Ember Coffee Roasters</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(0,2670)" font-size="12" fill="#444">
+    <text x="20" y="0">Palette: cream #faf6f0 · espresso #2b1d14 · ember #d9531e · tan #e8dccb / #f3ebde · muted #6b5a4c</text>
+    <text x="20" y="18">Font: Inter or DM Sans. Spacing in multiples of 8. Cards 12px radius, buttons fully rounded. Alternate section backgrounds to create rhythm.</text>
+  </g>
+</svg>

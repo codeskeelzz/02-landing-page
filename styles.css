@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    background-color: #faf6f0;
+    padding: 4px 18px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Fraunces", sans-serif;
+}\\
