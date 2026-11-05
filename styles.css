@@ -109,6 +109,10 @@ nav {
     padding: 12px 0 12px;
 }
 
+.nav-links.nav-links--open {
+    display: block;
+}
+
 .nav-links li {
    flex-basis: 100%;
    padding: 3px 12px;
@@ -128,10 +132,10 @@ nav {
 
 
 
-/*============== 3. HERO ======================*/
+/*=========================== 3. HERO ==================================*/
 section.hero {
     background-color: #faf6f0;
-    padding: 25px 45px;
+    padding-block: 25px 45px;
 }
 
 h2.hero__title {
@@ -182,6 +186,7 @@ button.nocolor {
 /*================= BIGGER SCREEN & DESKTOP STYLING ====================*/
 @media (min-width: 900px) {
 
+    /***************** HERO ********************/
     .hero .container {
         display: flex;
         justify-content: center;
@@ -190,5 +195,73 @@ button.nocolor {
     }
     
     .hero__content{
+        width: 50%;
+    }
+
+    .hero__image {
+        width: 50%
+    }
+
+    .hero__cta {
+        display: flex;
+        gap: 25px;
+    }
+
+    button.nocolor {
+        display: block;
+        color: #d9531e;
+    }
+
+    button.color {
+        width: 30%;
+    }
+
+    /***************** NAVIGATION ********************/
+    button.hamburger {
+        display: none;
+    }
+
+    .nav__inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-basis: auto;
+        gap: 15px;
+    }
+
+    .nav-links li {
+        flex-basis: auto;
+    }
+
+    .nav-links li a{
+        text-transform: capitalize;
+        font-size: 0.98rem;
+    }
+
+    .nav-links li:active {
+        color: #d9531e;
+        font-weight: 500;
+    }
+
+    .nav-links li:hover {
+        color: #d9531e;
+        background-color: transparent;
+    }
+
+    li.subscribe {
+        background-color: #d9531e;
+        padding: 7px 20px;
+        border-radius: 25px;
+        color: #eee6da;
+        margin-left: 5px;
+    }
+
+    .hero__image img {
+        aspect-ratio: 6/4;
     }
 }
