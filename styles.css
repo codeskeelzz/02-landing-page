@@ -261,15 +261,15 @@ button.nocolor {
 .why-cards__icon {
     background-color: #e8dccb;
     border-radius: 50%;
-    height: 36px;
-    width: 36px;
+    height: 42px;
+    width: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 8px;
+    font-size: 18px;
+
 }
-
-
 
 
 
@@ -306,6 +306,9 @@ button.nocolor {
     button.color {
         width: 30%;
     }
+
+
+
 
     /***************** NAVIGATION ********************/
     button.hamburger {
@@ -355,4 +358,66 @@ button.nocolor {
     .hero__image img {
         aspect-ratio: 6/4;
     }
+
+
+
+
+    /***************** FEATURED ********************/
+    .container.featured-layout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .featured {
+        padding-block: 20px 18px;
+    }
+
+    .featured__tiles {
+        gap: 20px;
+    }
+
+    .card{
+        font-size: 13px;
+        font-weight: 600;
+        background-color: #e0d3bf;
+        border-radius: 15px;
+        padding: 7px 20px;
+        white-space: nowrap;
+    }
+
+    .featured__text {
+        font-size: 12px;
+        font-weight: 500;
+        color: #6b5a4c;
+        letter-spacing: 0.5em;
+        text-align: center;
+        padding-bottom: 0px;
+
+    }
+
+
+
+
+    /***************** WHY EMBER ********************/
+    .why-ember {
+        padding-block: 68px;
+    }
+    
+    .grid-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .why-cards {
+        padding-block: 50px;
+        padding-inline: 30px;
+    }
+
+    .why-cards__heading{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
 }
