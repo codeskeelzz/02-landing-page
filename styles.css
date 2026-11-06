@@ -144,6 +144,7 @@ h2.hero__title {
 
 p.hero__text {
     margin-top: 12px;
+    line-height: 24px;
 }
 
 .hero__cta {
@@ -178,6 +179,96 @@ button.nocolor {
     object-fit: cover;
     aspect-ratio: 5/3;
 }
+
+
+
+
+
+/*=========================== 4. FEATURED  ==================================*/
+
+.featured {
+    background-color: #f1e9dc;
+    padding-block: 15px 16px;
+}
+
+.featured__tiles {
+    display: flex;
+    gap: 7px;
+}
+
+.card{
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #e0d3bf;
+    border-radius: 9px;
+    padding: 4px 10px;
+    white-space: nowrap;
+}
+
+.featured__text {
+    font-size: 11px;
+    color: #6b5a4c;
+    letter-spacing: 0.5em;
+    text-align: center;
+    padding-bottom: 8px;
+
+}
+
+
+
+
+/*=========================== 5. WHY EMBER  ==================================*/
+
+.why-ember{
+    background-color: #faf6f0;
+    padding-block: 35px;
+}
+
+.why-ember__heading {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.why-ember__text {
+    text-align: center;
+}
+
+.grid-cards {
+    display: grid;
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.why-cards {
+    background-color: #fefefe;
+    border: 1px solid #ede5d9;
+    padding: 18px 20px;
+    border-radius: 8px;
+}
+
+.why-cards__heading {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+
+.why-cards__text{
+    font-size: 13px;
+}
+
+.why-cards__icon {
+    background-color: #e8dccb;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
 
 
 
