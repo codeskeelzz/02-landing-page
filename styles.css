@@ -274,6 +274,73 @@ button.nocolor {
 
 
 
+/*===================== 5. WHY EMBER  ===========================*/
+
+.how-it-works {
+    background-color: #ffffff;
+    padding-block: 45px;
+}
+
+
+
+
+
+/*===================== 6. HOW IT WORKS  ===========================*/
+.timeline {
+    margin-top: 15px;
+}
+
+.steps-bg {
+    background-color: #d9531e;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 14px;
+    color: #fefefe;
+    font-weight: 800;
+}
+
+.three-steps-list {
+    display: flex;
+    gap: 7px;
+    position: relative;
+    padding-bottom: 32px;
+
+}
+
+.three-steps-list h4 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.three-steps-list p {
+    font-size: 13px;
+}
+
+.three-steps-list::before {
+    content: "";
+    position: absolute;
+    border-left: 2px dashed #aa967a;
+    left: 16px;
+    height: 100%;
+    top: 32px;
+}
+
+.three-steps-list:last-child::before {
+    content: none;
+}
+
+
+
+
+
+
+
+
 /*================= BIGGER SCREEN & DESKTOP STYLING ====================*/
 @media (min-width: 900px) {
 
@@ -408,6 +475,7 @@ button.nocolor {
     .grid-cards {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
     }
 
     .why-cards {
