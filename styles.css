@@ -274,18 +274,13 @@ button.nocolor {
 
 
 
-/*===================== 5. WHY EMBER  ===========================*/
+/*===================== 6. HOW IT WORKS  ===========================*/
 
 .how-it-works {
     background-color: #ffffff;
     padding-block: 45px;
 }
 
-
-
-
-
-/*===================== 6. HOW IT WORKS  ===========================*/
 .timeline {
     margin-top: 15px;
 }
@@ -333,6 +328,21 @@ button.nocolor {
 .three-steps-list:last-child::before {
     content: none;
 }
+
+
+
+
+
+/*===================== 6. OUR ROASTS  ===========================*/
+.our-roasts {
+    background-color: #faf6f0;
+    padding-block: 50px;
+}
+
+
+
+
+
 
 
 
@@ -469,10 +479,10 @@ button.nocolor {
 
     /***************** WHY EMBER ********************/
     .why-ember {
-        padding-block: 68px;
+        padding-block: 80px;
     }
     
-    .grid-cards {
+    .grid-cards { 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 35px;
@@ -487,5 +497,65 @@ button.nocolor {
         font-size: 18px;
         margin-bottom: 5px;
     }
+
+
+
+    /*===================== 6. HOW IT WORKS  ===========================*/
+    .how-it-works {
+        background-color: #ffffff;
+        padding-block: 80px;
+    }
+
+    .steps-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .three-steps-text {
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .why-ember__heading {
+        margin-top: 20px;
+    }
+
+    .three-steps-text h4 {
+        font-size: 19px;
+        margin-top: 12px;
+    }
+
+    .three-steps-text p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .steps-bg {
+        height: 52px;
+        width: 52px;
+        padding: 12px;
+        font-size: 18px;
+        position: relative;
+        z-index: 999;
+    }
+
+    .three-steps-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .three-steps-list::before {
+    content: "";
+    position: absolute;
+    border-top: 2px dashed #aa967a;
+    left: 50%;
+    width: 100%;
+    top: 26px;
+    border-left: none;
+}
+
+.timeline {
+    margin-top: 40px;
+}
 
 }
