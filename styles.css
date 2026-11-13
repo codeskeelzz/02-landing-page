@@ -278,7 +278,8 @@ button.nocolor {
 
 .how-it-works {
     background-color: #ffffff;
-    padding-block: 45px;
+    padding-top: 45px;
+    padding-bottom: 25px;
 }
 
 .timeline {
@@ -339,7 +340,70 @@ button.nocolor {
     padding-block: 50px;
 }
 
+.roast-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+}
 
+.roast-cards {
+    background-color: #f6f6f6;
+    padding: 10px;
+    border: 1px solid #e8dccb;
+    border-radius: 10px;
+}
+
+.roast-cards img {
+    border-radius: 7px;
+}
+
+.roast-cards__heading {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.roast-cards__text {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.roast-cards__subdetails {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.roast-cards__price, .roast-cards__add {
+    font-weight: 600;
+}
+
+.roast-cards__add {
+    background-color: #d9531e;
+    color: #f6f6f6;
+    padding: 3px 16px;
+    border-radius: 20px;
+}
+
+.roast-cards__add:hover {
+    background-color: transparent;
+    border: 3px solid #d9531e;
+    border-radius: 20px;
+    color: #d9531e;
+    cursor: pointer;
+}
+
+
+.section-heading {
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-text {
+    text-align: center;
+}
 
 
 
