@@ -408,14 +408,106 @@ button.nocolor {
 
 
 
+/*===================== 7. PICK YOUR PLAN  ===========================*/
 
+.pick-your-plan {
+    background-color: #f3ebde;
+}
 
+.section-container {
+    padding-block: 55px;
+}
+
+.plans-grid {
+    margin-top: 32px;
+}
+
+.plan-block {
+    background-color: #ffffff;
+    border: 1px solid #e8dccb;
+    padding-block: 38px;
+    padding-inline: 28px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.plan-name {
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #2b1d14;
+}
+
+.plan-heading {
+    display: inline;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.plan-text {
+    padding-bottom: 5px;
+}
+
+.plan-text.top {
+    margin-top: 16px;
+}
+
+.plan-subscribe {
+    width: 100%;
+    border: 2px solid #d9531e;
+    margin-top: 32px;
+    padding-inline: 25px;
+    padding-block: 12px;
+    border-radius: 26px;
+    text-align: center;
+    font-weight: 600;
+    color: #d9531e;
+    cursor: pointer;
+}
+
+.plan-block.plan-block--popular {
+    background-color: #271b12;
+    position: relative;
+}
+
+.plan-block.plan-block--popular::before {
+    content: "MOST POPULAR";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d9531e;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.plan-subscribe.plan-subscribe--popular {
+    background-color: #d9531e;
+    color: #eee6da;
+}
+
+.plan-block--popular .plan-name{
+    color: #ffffff;
+}
+
+.plan-block--popular .plan-heading, .plan-block--popular .plan-text{
+    color: #ffffff;
+}
+
+.sub-featured {
+    color: #ffffff;
+}
 
 
 
 
 
 /*================= BIGGER SCREEN & DESKTOP STYLING ====================*/
+
 @media (min-width: 900px) {
 
     /***************** HERO ********************/
@@ -567,7 +659,8 @@ button.nocolor {
     /*===================== 6. HOW IT WORKS  ===========================*/
     .how-it-works {
         background-color: #ffffff;
-        padding-block: 80px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .steps-list {
@@ -620,6 +713,22 @@ button.nocolor {
 
 .timeline {
     margin-top: 40px;
+}
+
+
+
+
+
+/*===================== 6. OUR ROASTS  ===========================*/
+
+.our-roasts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.roast-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
 }
 
 }
