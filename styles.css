@@ -723,12 +723,40 @@ button.nocolor {
 
 .our-roasts {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 
 .roast-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
 }
+
+
+
+
+
+
+/*===================== 7. PICK YOUR PLAN  ===========================*/
+.section-container {
+    padding-block: 85px;
+}
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
