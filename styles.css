@@ -799,7 +799,16 @@ button.nocolor {
 
 
 
+/*===================== 8. TESTIMONIAL  ===========================*/
+.section-container {
+    padding-block: 95px;
+}
 
+.testimonial-grid {
+    display: flex;
+    gap: 26px;
+    margin-top: 45px;
+}
 
 
 
