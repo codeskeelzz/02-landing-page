@@ -397,7 +397,7 @@ button.nocolor {
 
 
 .section-heading {
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -501,6 +501,55 @@ button.nocolor {
 .sub-featured {
     color: #ffffff;
 }
+
+
+
+
+
+
+/*===================== 8. TESTIMONIAL  ===========================*/
+.testimonial {
+    background-color: #2b1d14;
+}
+
+.testimonial-grid {
+    margin-top: 29px;
+}
+
+.section-heading__light {
+    color: #faf6f0
+}
+
+.testimonial-block {
+    background-color: #3a291e;
+    margin: 0;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.testimonial-quote {
+    color: #faf6f0;
+}
+
+.testimonial-details {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.testimonial-photo {
+    border-radius: 50%;
+}
+
+.testimonial-name {
+    color: #eee6da;
+    font-weight: 600;
+}
+
+
+
 
 
 
