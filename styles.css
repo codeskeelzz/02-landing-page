@@ -504,9 +504,6 @@ button.nocolor {
 
 
 
-
-
-
 /*===================== 8. TESTIMONIAL  ===========================*/
 .testimonial {
     background-color: #2b1d14;
@@ -550,6 +547,56 @@ button.nocolor {
 
 
 
+/*===================== 9. FAQ  ===========================*/
+.faq {
+    background-color: #f9f5ef;
+}
+
+.faq-list {
+    margin-top: 20px;
+}
+
+details {
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 18px 28px;
+    border: 1px solid #e0d3bf;
+}
+
+summary {
+    font-weight: 700;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: "+";
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #d9531e;
+}
+
+details[open] summary::after {
+    content: "−";
+}
+
+summary:focus-visible {
+    outline: 2px solid #d9531e;
+    outline-offset: 4px;
+}
+
+.faq__ans {
+    margin-top: 12px;
+}
 
 
 
