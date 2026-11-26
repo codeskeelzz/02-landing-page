@@ -15,3 +15,10 @@ allNavLinks.forEach(link => {
         hamBurger.setAttribute("aria-expanded", "false")
     })
 })
+
+// Reduce Nav sticky size
+const siteNav = document.querySelector('.site-nav')
+
+window.addEventListener('scroll', () => {
+    siteNav.classList.toggle("site-nav--small", window.scrollY > 50)
+})

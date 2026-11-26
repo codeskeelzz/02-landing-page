@@ -825,7 +825,34 @@ summary:focus-visible {
         aspect-ratio: 6/4;
     }
 
+    /*
+        STICKY NAV
+    */
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+.nav__inner {
+    transition: padding 0.2s ease;
+}
+
+.site-nav h3 {
+    transition: font-size 0.2s ease;
+}
+
+.site-nav--small .nav__inner {
+    padding-block: 2px;
+}
+
+.site-nav--small h3 {
+    font-size: 1.4rem;
+}
 
 
     /***************** FEATURED ********************/
