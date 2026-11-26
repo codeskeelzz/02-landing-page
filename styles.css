@@ -49,6 +49,19 @@ p {
 
 
 
+/*===================== GENERAL ============================*/
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+
+
 /*===================== 1. CONTAINERS & HEADINGS ============================*/
 h1, h2, h3, h4 {
     font-family: "Fraunces", sans-serif;
@@ -123,6 +136,7 @@ h3 {
 .nav-links li a {
     text-align: center;
     font-size: 1.15rem;
+    cursor: pointer;
 }
 
 .nav-links li:hover {
@@ -1013,6 +1027,42 @@ summary:focus-visible {
 }
 
 
+
+/*===================== 11. FOOTER  ===========================*/
+.footer {
+    padding-block: 34px 10px;
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.footer__heading,
+.footer__column--company,
+.footer__column ul {
+    display: block;
+}
+
+
+.footer__column li {
+    margin-bottom: 8px;
+}
+
+.footer__copy {
+    grid-column: 1 / -1;
+}
+
+.footer__heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: #faf6f0;
+    margin-bottom: 10px;
+}
+
+.footer__heading a {
+    font-size: 15px;
+}
 
 
 }
