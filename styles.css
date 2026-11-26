@@ -74,7 +74,7 @@ h3 {
 
 
 /*===================== 2. NAVIGATION & HAMBURGER =======================*/
-nav {
+.site-nav {
     background-color: #faf6f0;
     border-bottom: 1px solid #eee6da;
 }
@@ -657,6 +657,68 @@ summary:focus-visible {
     white-space: nowrap;
     border: 0;
 }
+
+
+
+/*===================== 11. FOOTER  ===========================*/
+.footer {
+    background-color: #1c120c;
+    color: #c9b79c;
+    padding-block: 18px;
+}
+
+.footer__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.footer__brand,
+.footer__copy {
+    flex-basis: 100%;
+}
+
+.footer__logo {
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #faf6f0;
+}
+
+.footer__copy {
+    font-size: 12px;
+}
+
+.footer__heading,
+.footer__column--company {
+    display: none;
+}
+
+.footer__column ul {
+    display: flex;
+    gap: 16px;
+}
+
+.footer__column li {
+    margin-bottom: 0;
+}
+
+.footer__column a {
+    cursor: pointer;
+}
+
+.footer__column a:hover {
+    color: #faf6f0;
+    text-decoration: underline;
+}
+
+.footer__column a:focus-visible {
+    outline: 2px solid #faf6f0;
+    outline-offset: 3px;
+}
+
+
+
 
 
 

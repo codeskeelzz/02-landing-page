@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav class="site-nav">
         <div class="nav__inner container">
             <h3>Ember</h3>
 
@@ -309,7 +309,42 @@
         </section>
 
     </main>
+
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <p class="footer__logo">Ember</p>
+            </div>
+
+            <nav class="footer__column" aria-labelledby="footer-shop">
+                <h4 class="footer__heading" id="footer-shop">Shop</h4>
+                <ul>
+                    <li><a href="#">Roasts</a></li>
+                    <li><a href="#">Plans</a></li>
+                </ul>
+            </nav>
+
+            <nav class="footer__column footer__column--company" aria-labelledby="footer-company">
+                <h4 class="footer__heading" id="footer-company">Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </nav>
+
+            <nav class="footer__column" aria-labelledby="footer-support">
+                <h4 class="footer__heading" id="footer-support">Support</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <p class="footer__copy">© 2026 Ember Coffee Roasters</p>
+        </div>
+    </footer>
     
     <script src="./script.js"></script>
 </body>
+
 </html>
